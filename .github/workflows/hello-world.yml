@@ -15,8 +15,8 @@ jobs:
            uses : actions/setup-node@v3
            with :
             node-version : 20
-        - name : install vite 
-          run : npm install vite 
+         - name : install vite 
+           run : npm install vite 
          - name : install dep
            run : npm install 
          - name : develop build 
